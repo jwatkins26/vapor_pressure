@@ -13,9 +13,18 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="input">
-            <input placeholder="Temperature" type="number"> <input placeholder="Humidity" type="number">
-            <button class="btn" type="submit">Submit</button>
+
+            <div class="title">
+                <h1>VPD Calculator</h1>
+            </div>
+
+            <input id="temp" placeholder="Temperature" type="number"> <input id="hum" placeholder="Humidity" type="number">
+            <button class="btn" type="submit" onclick="showTemp()">Submit</button>
+            <div class="output title">
+                <h2>kPa: </h2>
+            </div>
         </div>
     </div>
     
