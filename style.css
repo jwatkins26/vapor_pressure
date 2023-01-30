@@ -36,7 +36,8 @@ button {
 
 button:hover {
     background-color: #f2f2f2;
-    color: #f96d00
+    color: #f96d00;
+    cursor: pointer;
 }
 
 input {
