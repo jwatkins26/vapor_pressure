@@ -1,0 +1,38 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    height: 450px;
+    width: 850px;
+    border-radius: 6%;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #f96d00;
+    color: #f2f2f2;
+    font-size: 24px;
+    border-radius: 8%;
+    padding: 5px;
+    transition-duration: .04s;
+}
+
+button:hover {
+    background-color: #222831;
+    color: #f96d00
+}
